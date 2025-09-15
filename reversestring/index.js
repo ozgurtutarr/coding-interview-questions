@@ -15,6 +15,7 @@ function reverse(str) {
   //   reversed = char + reversed;
   // }
   // return reversed;
+
   //----------------- Solution 3
   // let reversed = '';
   // for (let i = 0; i < str.length; i++) {
