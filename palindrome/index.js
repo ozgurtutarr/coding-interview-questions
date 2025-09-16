@@ -19,4 +19,6 @@ function palindrome(str) {
   return reversed;
 }
 
+str[4 - 1];
+
 module.exports = palindrome;

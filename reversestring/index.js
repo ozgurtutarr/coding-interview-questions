@@ -23,10 +23,9 @@ function reverse(str) {
   // }
   // return reversed;
   //----------------- Solution 4
-
-  return str.split('').reduce((reversed, char) => {
-    return char + reversed;
-  }, '');
+  debugger;
+  return str.split('').reduce((reversed, char) => char + reversed, '');
 }
+console.log(reverse('hello'));
 
 module.exports = reverse;
